@@ -1,4 +1,4 @@
-# An Actual-vs-Predicted Fancy Plotter hued with LCZ classes
+# An Actual-vs-Predicted Fancy Plotter hued with LCZ Classes
 
 The modules found in this project allow one to create an actual-vs-predicted plot using
 [seaborn](https://seaborn.pydata.org/) and [LaTeX](https://www.latex-project.org/).
@@ -8,10 +8,11 @@ markers according to a [QGIS](https://www.qgis.org/) palette for the Local Clima
 
 ## Installation
 
-1. Clone GitHub repository:
+1. Clone GitHub repository and change directory:
 
     ```bash
-    git clone https://github.com/eliocpereira95/-An-Actual-vs-Predicted-Fancy-Plotter-hued-with-LCZ-Classes.git
+    git clone https://github.com/eliocpereira95/fancy_plotter_actual_vs_predicted.git
+    cd fancy_plotter_actual_vs_predicted
     ```
 
 2. Install LaTeX
