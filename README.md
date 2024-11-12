@@ -2,9 +2,9 @@
 
 The modules found in this project allow one to create an actual-vs-predicted plot using
 [seaborn](https://seaborn.pydata.org/) and [LaTeX](https://www.latex-project.org/).
-Furthermore, they allow one to print the regression scores on the plot and add a hue the
-markers according to a [QGIS](https://www.qgis.org/) palette for the Local Climate Zone
-(LCZ) variable.
+Furthermore, they allow one to print the regression scores on the plot and add a hue to
+the markers according to a [QGIS](https://www.qgis.org/) palette for the Local Climate
+Zone (LCZ) variable.
 
 ## Installation
 
