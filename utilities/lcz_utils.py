@@ -1,11 +1,12 @@
 from typing import Literal
 import json
 import pandas as pd
+from pathlib import Path
 
 
 def convert_LCZ_num_to_class(
     LCZ_num: pd.Series,
-    mapper_file_path: str,
+    mapper_file_path: str | Path,
 ) -> pd.Series:
     """
     Convert Local Climate Zone numerical codes `LCZ_num` to their corresponding classes
@@ -17,7 +18,7 @@ def convert_LCZ_num_to_class(
     LCZ_num : pd.Series
         The LCZ numerical codes to be converted.
 
-    mapper_file_path : str, optional
+    mapper_file_path : str | Path
         File path to the JSON file that maps LCZ numerical codes to classes.
 
     Returns:
@@ -47,7 +48,7 @@ def convert_LCZ_num_to_class(
 
 
 def load_LCZ_class_palette(
-    mapper_file_path: str,
+    mapper_file_path: str | Path,
 ) -> dict:
     """
     Load the color palette for Local Climate Zone classes from a JSON file. This palette
@@ -81,7 +82,7 @@ def load_LCZ_class_palette(
 
 def get_LCZ_order(
     LCZ: pd.Series,
-    mapper_file_path: str,
+    mapper_file_path: str | Path,
     LCZ_kind: Literal["num", "class"] = "class",
 ) -> list:
     """
