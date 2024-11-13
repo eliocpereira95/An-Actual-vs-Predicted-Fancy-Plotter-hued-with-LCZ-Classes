@@ -22,7 +22,7 @@ Zone (LCZ) variable.
     In the case of a Debian-based Linux distribution (such as Ubuntu), you do:
 
     ```bash
-    sudo apt-get install -y dvipng texlive-latex-extra texlive-fonts-recommended
+    sudo apt-get install -y dvipng texlive-latex-extra texlive-fonts-recommended cm-super
     ```
 
 3. Make sure to initialize `conda` using the command below. After that, open a new
