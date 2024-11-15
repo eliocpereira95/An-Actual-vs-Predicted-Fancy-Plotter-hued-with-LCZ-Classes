@@ -44,7 +44,7 @@ Zone (LCZ) variable.
 
 ## Usage
 
-Have a look at the Jupyter notebook `examply.ipynb` to undestand how to use the modules.
-Be sure to use the created virtual environment as kernel to run it.
+Have a look at the Jupyter notebook [`examply.ipynb`](example.ipynb) to undestand how to
+use the modules. Be sure to use the created virtual environment as kernel to run it.
 
 <img src="example.png" width="650"/>
